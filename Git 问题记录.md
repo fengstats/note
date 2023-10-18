@@ -1,3 +1,11 @@
+## 更改已提交的 commit msg 信息
+
+1. `git log` 或者 `git reflog` 查看 commit hash 值。
+2. `git rebase -i commitHash~1`
+3. 在 Vim 编辑内容中，找到你想要更改 commit msg 信息的行，将前面的 `pick` 更改为 `reword` 或 `r`
+4. 保存退出，此时会自动弹出当时的 commit msg，修改保存退出
+5. 强制提交，`git push --force`
+
 ## 文件名大小写
 
 例如：你创建了一个文件 `callout.md` 写入内容并提交到远程仓库中，突然有一天，你想将这个文件名的首字母改为大写，更改后会发现没有任何提示信息，你感到很诧异，这并不奇怪，因为 Git 默认是不区分文件名大小写的，所以对你的文件名大小写并不敏感。
@@ -25,3 +33,10 @@ git push
 ```
 
 ![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Git-%E6%96%87%E4%BB%B6%E5%A4%A7%E5%B0%8F%E5%86%99%E8%A7%A3%E5%86%B3%E6%B5%81%E7%A8%8B%E6%BC%94%E7%A4%BA.png)
+
+## gitignore 忽略已经提交过的文件
+
+> 记得要加上 `--cached` 不然本地的文件也会被删除。
+
+1. 先 `git rm --cached` 清除这个文件或文件夹
+2. `add + commit` 解除远程仓库托管即可（也就是删除远程上的文件）
