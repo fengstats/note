@@ -2,7 +2,7 @@
 
 基础操作方式与 Vim 相同（作者貌似是受 Vim 模式启发才有的 ranger）
 
-![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/ranger-%E7%9B%AE%E5%BD%95%E4%BF%A1%E6%81%AF.png)
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Ranger-%E7%9B%AE%E5%BD%95%E4%BF%A1%E6%81%AF.png)
 
 - commands.py：一些命令函数，可供其他文件（`rc.conf`）调用执行
 - commands_full.py：所有命令
