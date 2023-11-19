@@ -20,6 +20,7 @@ docker run -d -p 1880:1880 -v D:\03-environment\node-red-one:/data --restart=alw
 ```
 
 命令详解：
+
 - `--rm`: 容器停止运行后自动删除该容器（临时或一次性运行容器使用）
 - `-d`: 保持后台挂起
 - `--name=容器名称`: 指定容器名称
