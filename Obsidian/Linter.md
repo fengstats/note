@@ -28,4 +28,3 @@ title: [Linter](https://github.com/platers/obsidian-linter) 插件
 - [x] [proper-ellipsis](https://github.com/platers/obsidian-linter/blob/master/docs/rules.md#proper-ellipsis)：使用省略号替换三个 `.`
 - [ ] [no-bare-urls](https://github.com/platers/obsidian-linter/blob/master/docs/rules.md#no-bare-urls)：用尖括号将裸 URL 括起来，除非用反引号、方括号或单引号或双引号括起来（会变得很奇怪）
 - [ ] [remove-space-around-characters](https://github.com/platers/obsidian-linter/blob/master/docs/rules.md#remove-space-around-characters)：删除全角字符周围的空格和制表符（会导致全角符号后面跟了标签会被删除空格，使得标签无法正确被识别，暂时不用了）
-

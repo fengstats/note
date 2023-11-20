@@ -1,4 +1,4 @@
-## Introducation
+## Introduction
 
 Callout 是 Obsidian 自带的引用卡片样式（好看 🥰）
 
