@@ -2,7 +2,7 @@
 
 点击当前代码行的末尾（空的地方），它会在末尾多出一个空格然后才回到最后一个字符上
 
-![](attachments/neovim-鼠标点击行末尾问题.mp4)
+![](../inbox/attachments/neovim-鼠标点击行末尾问题.mp4)
 
 ## 配置 gj 与 gk 映射导致指令不丝滑问题
 
@@ -10,7 +10,7 @@ VSCodeVim 提供了 `"vim.foldfix"; true` 配置，NeoVim 貌似没提供，现�
 
 折叠问题，通过配置 `map J 4gj` 临时解决
 
-![](attachments/neovim-gj与gk导致指令不丝滑问题.mp4)
+![](../inbox/attachments/neovim-gj与gk导致指令不丝滑问题.mp4)
 
 ## VISUAL LINE 影响鼠标选中问题
 
@@ -19,7 +19,7 @@ VSCodeVim 提供了 `"vim.foldfix"; true` 配置，NeoVim 貌似没提供，现�
 1. 先把 visual line 变成 visual，也就是按 v，然后按 esc 退出，此时再用鼠标选中就没问题了
 2. 重新加载 VS Code
 
-![](attachments/neovim-visualline影响鼠标选中问题.mp4)
+![](../inbox/attachments/neovim-visualline影响鼠标选中问题.mp4)
 
 ## Command+D 无法在 Normal 模式创建多光标选中操作
 
