@@ -4,11 +4,9 @@
 
 #### 快捷键
 
-```ad-note
-title: 传统 Vim 与 Obsidian 中的 Vim 可用，VSCode Vim 不可用（有可能是快捷键配置问题屏蔽了，后面来看）
-
-补充说明：确实是 VS Code 中快捷键屏蔽问题，不过需要手动开启。
-```
+> [!note] 传统 Vim 与 Obsidian 中的 Vim 可用，VSCode Vim 不可用（有可能是快捷键配置问题屏蔽了，后面来看）
+> 
+> 补充说明：确实是 VS Code 中快捷键屏蔽问题，不过需要手动开启。
 
 - 数字自增：Ctrl + A
 - 数字自减：Ctrl + X
