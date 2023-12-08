@@ -1,39 +1,51 @@
-## 来教小小石写笔记！
+# 小小石的笔记
 
-一个乱七八糟的笔记
+花一点时间，折腾一点东西，收获没什么用的成果，收获巨大的快乐~ 🥳
 
-花一点时间，折腾一点小东西，收获一个没什么大用的成果，收获巨大的快乐~ 🥰
+## 杂谈
 
-15:40 通过 grid + jq 来显示类似直播九宫格布局需求实现
+- [不知道放在哪里就先放这里好了](notes/不知道放在哪里就先放这里好了.md)
+- [常用笔记软件推荐](notes/常用笔记软件推荐.md)
+- [关于打字](notes/关于打字.md)
+- [关于减肥的心路历程](notes/关于减肥的心路历程.md)
+- [脚本 - 日记时长统计](notes/脚本%20-%20日记时长统计.md)
+- [看完文章想写点东西](notes/看完文章想写点东西.md)
+- [什么是 MBTI？](notes/什么是%20MBTI？.md)
+- [一些乱七八糟的推荐](notes/一些乱七八糟的推荐.md)
+- [怎样让对方喜欢和你聊天](notes/怎样让对方喜欢和你聊天.md)
+- [ChatGPT](notes/ChatGPT.md)
+- [Mac](notes/Mac.md)
 
-- 点击某个小窗口占满前两列三行的位置，剩下的小窗口依次排序到右边第三列去，且可滚动查看（放大窗口不动）
-- 点击放大窗口回归原始布局（九宫格）
-- 点击其他小窗口交换与放大窗口的位置
+## 技术专栏
 
-> 电报 Telegram 过程文章
+- [直播项目服务配置](notes/直播项目服务配置.md)
+- [Anthony Fu - 托尼的一些工具](notes/Anthony%20Fu%20-%20托尼的一些工具.md)
+- [ESLint](notes/ESLint.md)
+- [Docker](notes/Docker.md)
+- [Git](notes/Git.md)
+- [Github](notes/Github.md)
+- [JavaScript](notes/JavaScript.md)
+- [Ranger](notes/Ranger.md)
+- [Rime](notes/Rime.md)
+- [Vim](notes/Vim.md)
+- [VSCode](notes/VSCode.md)
+- [Vue2](notes/Vue2.md)
+- [Vue3](notes/Vue3.md)
 
-- [Telegram 注册教程！](https://www.youtube.com/watch?v=YPt8pN6xoQg&ab_channel=%E6%95%B0%E5%AD%97%E7%89%A7%E6%B0%91LC)
-- [使用 Google 产品提示“此账号已在您的设备上”的解决办法 | 俍注](https://oneinf.com/tech/5625.html)
+## Chrome
 
-> 关于空格的一些说法
+- [Chrome](notes/Chrome.md)
+- [Chrome 扩展推荐](notes/Chrome%20扩展推荐.md)
+- [油猴脚本推荐](notes/油猴脚本推荐.md)
 
-**有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适当地留白。**
+## Obsidian
 
-与大家共勉之。[GitHub - vinta/pangu.js: Paranoid text spacing in JavaScript](https://github.com/vinta/pangu.js)
+- [Obsidian](notes/Obsidian.md)
+- [Obsidian 插件](notes/Obsidian%20插件.md)
+- [Obsidian 中的 Callout 和 Admonition](notes/Obsidian%20中的%20Callout%20和%20Admonition.md)
 
-“得、的、地” 的用法（猪猪教我的）
+## 英语
 
-- 得 + 形容词
-- 的 + 名词
-- 地 + 动词
-
-> 解决群友问题
-
-其实就是不同系统注入 wepback 环境变量的方式有所不同罢了，这个项目内置命令本身是提供给 unix 系统的，小伙伴用的是 win
-
-- 在 windows WSL 中使用
-- 调整一下命令：添加 `set` 前缀或者安装 `cross-env` 依赖包配置下（一个跨平台的环境变量配置工具）
-
-我翻了下这个仓库的 issues 貌似也有这个问题的解答：[github issues 687](https://github.com/heartexlabs/label-studio-frontend/issues/687)
-
-![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20231204213426.png)
+- [英语学习阶段](notes/英语学习阶段.md)
+- [英语单词记录](notes/英语单词记录.md)
+- [英语发音技巧](notes/英语发音技巧.md)
