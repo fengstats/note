@@ -1,4 +1,4 @@
-## 基础命令
+## 常用
 
 ### 拉镜像
 
@@ -59,7 +59,7 @@ docker ps
 docker ps -a
 ```
 
-## 关于 Volume
+## Docker Volumes
 
 ### 创建 volume
 
@@ -83,4 +83,49 @@ docker volume ls
 
 ```shell
 docker volume inspect my-vol
+```
+
+## Docker Compose
+
+### 在后台启动服务
+
+```shell
+# 所有服务
+docker compose up -d
+
+# NOTE: 启动单个服务，基本后面的命令都可以加 serverName
+docker compose up -d [server name]
+```
+
+### 启动服务
+
+```shell
+docker compose start
+```
+
+### 停止并删除服务资源
+
+```shell
+docker compose down
+
+# 删除创建的 Docker Volumes
+docker compose down --volumes
+```
+
+### 列出所有运行中的服务
+
+```shell
+docker compose ps
+```
+
+### 查看日志
+
+```shell
+docker compose logs -f
+```
+
+### 构建镜像
+
+```shell
+docker comopse build
 ```

@@ -44,6 +44,10 @@ Type 关键字对应样式展示：
 
 > [!quote] quote | cite
 
+这个 todo 是新增的吗，乱写一下居然有……
+
+> [!todo]
+
 ## Admonition
 
 这里顺便介绍一下 Admonition，一个和 Callout 快大差不差的美化卡片显示的插件（是官网 Callout 出现前的方案）
@@ -54,7 +58,7 @@ Type 关键字对应样式展示：
 > 首先看写法上：从大于号的引用块变成了代码块，然后在代码块内部写上 `ad-` 加 Type 关键字（请参考 Callout Type），内部也配置了一些参数，如下：
 
 - title：标题
-- collapse: 折叠状态（open/clsoe/none)
+- collapse: 折叠状态（open/close/none)
 
 ````text
 ```ad-[TYPE]

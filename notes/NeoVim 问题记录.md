@@ -1,8 +1,12 @@
+02:00 VSCode/NeoVim 说明文档基本过了一遍，原来帮用户内置了这么多映射操作（编辑器/资源管理器），有个 [多光标](https://github.com/vscode-neovim/vscode-neovim#multiple-cursors) 的地方说明没太看懂，跟着命令操作了下也没有效果，不管了，总体来说确实比 VSCode/Vim 省心不少呢，不过问题还是存在的，这俩要是能互相取舍一下就好了，就是那种，我有问题的地方你没问题，可恶！
+
+> 多光标看懂了，需要进入 Visual Line 模式，就类似之前 VSCode/Vim 中的行选中之前 I/A
+
 ## 鼠标点击行末尾光标显示问题
 
 点击当前代码行的末尾（空的地方），它会在末尾多出一个空格然后才回到最后一个字符上
 
-![](../inbox/attachments/neovim-鼠标点击行末尾问题.mp4)
+![](../../inbox/attachments/neovim-鼠标点击行末尾问题.mp4)
 
 ## 配置 gj 与 gk 映射导致指令不丝滑问题
 
@@ -10,7 +14,7 @@ VSCodeVim 提供了 `"vim.foldfix"; true` 配置，NeoVim 貌似没提供，现�
 
 折叠问题，通过配置 `map J 4gj` 临时解决
 
-![](../inbox/attachments/neovim-gj与gk导致指令不丝滑问题.mp4)
+![](../../inbox/attachments/neovim-gj与gk导致指令不丝滑问题.mp4)
 
 ## VISUAL LINE 影响鼠标选中问题
 
@@ -19,7 +23,7 @@ VSCodeVim 提供了 `"vim.foldfix"; true` 配置，NeoVim 貌似没提供，现�
 1. 先把 visual line 变成 visual，也就是按 v，然后按 esc 退出，此时再用鼠标选中就没问题了
 2. 重新加载 VS Code
 
-![](../inbox/attachments/neovim-visualline影响鼠标选中问题.mp4)
+![](../../inbox/attachments/neovim-visualline影响鼠标选中问题.mp4)
 
 ## Command+D 无法在 Normal 模式创建多光标选中操作
 
