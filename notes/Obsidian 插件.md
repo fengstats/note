@@ -48,7 +48,7 @@
 - [File Explorer Note Count](https://github.com/ozntel/file-explorer-note-count)- 在文件夹右侧显示笔记数量。
 - [Better Command Palette](https://github.com/AlexBieg/obsidian-better-command-palette) - 增强系统命令面板，也就那样。
 - [Editing Toolbar](https://github.com/cumany/obsidian-editing-toolbar) - 给编辑区顶部添加一个工具栏，可自定义功能图标。
-- [Admonition](https://github.com/javalent/admonitions) - 和官方的 Callout 块差不太多，具体信息看这 👉 [Callout](Callout.md)。
+- [Admonition](https://github.com/javalent/admonitions) - 和官方的 Callout 块差不太多，具体信息看这 👉 [Obsidian 中的 Callout 和 Admonition](Obsidian%20中的%20Callout%20和%20Admonition.md)。
 - [Table Enhancer](https://github.com/Stardusten/ob-table-enhancer) - 编辑时直接以表格形式编辑，不会切换为 Markdown 源码模式
 - [Surfing](https://github.com/PKM-er/Obsidian-Surfing/blob/main/README-ZH.md) - 直接变成浏览器，依赖 Custom Frames 插件，那请问我为什么不直接用 Chrome 😅，为了 All in One 吗？也行。
 

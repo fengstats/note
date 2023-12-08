@@ -1,12 +1,12 @@
 ## 常用
 
-### 拉镜像
+### 拉取镜像
 
 ```shell
 docker pull 镜像地址/组织/项目名称:版本号
 ```
 
-### 看镜像
+### 查看镜像
 
 ```shell
 docker images

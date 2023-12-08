@@ -2,9 +2,9 @@
 
 > [项目地址](https://github.com/antfu/taze)
 
-> TODO:
+> [!todo]
 
-## ni - 帮你正确的使用包管理工具
+## ni - 正确的使用包管理工具
 
 > [项目地址](https://github.com/antfu/ni)
 
@@ -20,8 +20,6 @@ pnpm install
 bun install
 ```
 
-> 图片预览
-
 ![image.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20230728181542.png)
 
 ### nr - 运行
@@ -30,11 +28,11 @@ bun install
 nr
 ```
 
-> 读取 package.json 中的 scripts 来让用户选择，通过 [npm-scripts-info](https://www.npmjs.com/package/npm-scripts-info) 包实现，如图：
+读取 package.json 中的 scripts 来让用户选择，通过 [npm-scripts-info](https://www.npmjs.com/package/npm-scripts-info) 包实现，如图：
 
 ![image.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20230728181925.png)
 
-> 可以在后面追加 scripts 中的命令以及其他指令
+可以在后面追加 scripts 中的命令以及其他指令
 
 ```shell
 nr dev --port 3000
@@ -46,7 +44,7 @@ pnpm run dev --port=3000
 bun run dev --port=3000
 ```
 
-> 重复最后一次执行的 nr 命令，类似 cd -
+重复最后一次执行的 nr 命令，类似 cd -
 
 ```shell
 nr -
@@ -97,7 +95,7 @@ pnpm remove
 bun remove
 ```
 
-> 全局卸载
+全局卸载
 
 ```shell
 nun -g
