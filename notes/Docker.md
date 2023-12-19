@@ -129,3 +129,15 @@ docker compose logs -f
 ```shell
 docker comopse build
 ```
+
+## Dockerfile
+
+在 Dockerfile 通过 `npm` 全局安装 `pnpm` 时超时的问题
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20231210140939.png)
+
+设置 tabao 镜像源即可
+
+```shell
+RUN npm config set registry https://registry.npm.taobao.org
+```
