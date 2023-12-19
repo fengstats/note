@@ -23,15 +23,16 @@
 - [常用笔记软件推荐](notes/常用笔记软件推荐.md)
 - [关于打字](notes/关于打字.md)
 - [关于减肥的心路历程](notes/关于减肥的心路历程.md)
-- [脚本 - 日记时长统计](notes/脚本%20-%20日记时长统计.md)
+- [日记时长统计脚本](notes/日记时长统计脚本.md)
 - [看完文章想写点东西](notes/看完文章想写点东西.md)
 - [什么是 MBTI？](notes/什么是%20MBTI？.md)
 - [一些乱七八糟的推荐](notes/一些乱七八糟的推荐.md)
 - [怎样让对方喜欢和你聊天](notes/怎样让对方喜欢和你聊天.md)
 - [ChatGPT](notes/ChatGPT.md)
 - [Mac](notes/Mac.md)
+- [Rime](notes/Rime.md)
 
-## 技术专栏
+## 技术相关
 
 - [直播项目服务配置](notes/直播项目服务配置.md)
 - [Anthony Fu - 托尼的一些工具](notes/Anthony%20Fu%20-%20托尼的一些工具.md)
@@ -41,7 +42,6 @@
 - [Github](notes/Github.md)
 - [JavaScript](notes/JavaScript.md)
 - [Ranger](notes/Ranger.md)
-- [Rime](notes/Rime.md)
 - [Vim](notes/Vim.md)
 - [VSCode](notes/VSCode.md)
 - [Vue2](notes/Vue2.md)
