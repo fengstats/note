@@ -1,3 +1,30 @@
+![VSCode Github Plus.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/VSCode%20Github%20Plus.png)
+
+- [Hungry Delecte](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete) - 更加智能的 `Backsapce`，增加了 `Alt+Backspace` 删除前面所有空行快捷方式
+- [TS 自动引入](https://marketplace.visualstudio.com/items?itemName=kevinmcgowan.TypeScriptImport)
+- [TS 移动文件后自动更新引入位置](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
+
+> 关于 VS Code 中使用 iTerm 作为终端部分命令输出后色彩丢失
+
+[zimfw/utility](https://github.com/zimfw/utility/issues/2) 找到了！就是这个插件刺客，内置扩展启动的时候往 VS Code 里面注入了 NO_COLOR=1，直接让我部分命令输出颜色丢失了，可以通过关闭这个插件或者在 settings.json 中设置
+
+```shell
+  "terminal.integrated.env.osx": {
+    "NO_COLOR": null
+  },
+```
+
+> 解决群友问题
+
+其实就是不同系统注入 wepback 环境变量的方式有所不同罢了，这个项目内置命令本身是提供给 unix 系统的，小伙伴用的是 win
+
+- 在 windows WSL 中使用
+- 调整一下命令：添加 `set` 前缀或者安装 `cross-env` 依赖包配置下（一个跨平台的环境变量配置工具）
+
+我翻了下这个仓库的 issues 貌似也有这个问题的解答：[github issues 687](https://github.com/heartexlabs/label-studio-frontend/issues/687)
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20231204213426.png)
+
 > flash.vim 问题
 
 在 `*.md` 文件中使用 `flash.vim` 写了点匹配词后，通过 backspace 删除更改，发现无反应，只能用 Esc 退出 flash，测试其他类型文件没有发现这个问题。
@@ -119,14 +146,6 @@ BackSpace（退格键）在 Vim 的选中模式配置
 - 创建无标题文件：Command + T
 - 添加针对单个编辑组宽度增加/缩小/恢复的快捷方式：Command + Shift + - / = / 0
 - Run Code 快捷键变更为：Command + Option + N
-
-## 主题截图
-
-![Moegi-Light-Vitesse.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Moegi-Light-Vitesse2.png)
-
-![Github-Dark-Classic.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Github-Dark-Classic2.png)
-
-![Light-Modern.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Light-Modern2.png)
 
 ## 小技巧
 
