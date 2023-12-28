@@ -23,7 +23,7 @@
 - [Vimrc Support](https://github.com/esm7/obsidian-vimrc-support) - 启用 Vim Mode，支持大部分 Vim 指令，可配置于 Vimrc 文件引入使用。
 - [MySnippets](https://github.com/chetachiezikeuzor/MySnippets-Plugin) - 位置在底部右侧的状态栏管理中，将 CSS 代码块文件集合一起，方便快速增加修改。
 - [Obsidian Git](https://github.com/denolehov/obsidian-git) - 远程仓库同步方案，参考视频 👉 [从 0 到 1，8 分钟沉浸式配置 Obsidian Git 同步](https://www.bilibili.com/video/BV1Bs4y1976R/)。
-- [Obsidian42 - BRAT](https://github.com/TfTHacker/obsidian42-brat) - 用于下载不在插件市场上的 Github 插件，输入 Github 地址，一键安装，还能帮助检查更新。
+- [Obsidian42 - BRAT](https://github.com/TfTHacker/obsidian42-brat) - 用于下载不在插件市场上的 GitHub 插件，输入 GitHub 地址，一键安装，还能帮助检查更新。
 - [Obsidian Memos](https://github.com/Quorafind/Obsidian-Memos)- 记录闪电笔记，如灵感、想法、收藏，发现还能和我日记的记录方式结合，用于快速回顾一天的日程，很不错。
 
 ### 文件内容

@@ -41,7 +41,7 @@
 - [ESLint](notes/ESLint.md)
 - [Docker](notes/Docker.md)
 - [Git](notes/Git.md)
-- [Github](notes/Github.md)
+- [GitHub](notes/GitHub.md)
 - [JavaScript](notes/JavaScript.md)
 - [Ranger](notes/Ranger.md)
 - [Vim](notes/Vim.md)

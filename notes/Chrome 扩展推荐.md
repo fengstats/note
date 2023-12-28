@@ -1,4 +1,6 @@
-[Authenticator](https://authenticator.cc/)，身份验证器，用于 Github 2FA 验证的，还好之前有先见之名，设置了同步。
+[GitHub - EnixCoda/Gitako: 🐙](https://github.com/EnixCoda/Gitako) - GitHub 目录树，比目前 GitHub 自带的更好用。
+
+[Authenticator](https://authenticator.cc/)，身份验证器，用于 GitHub2FA 验证的，还好之前有先见之名，设置了同步。
 
 点击地址栏后不弹出搜索记录列表：[HCOS - Hide Chrome Omnibox Suggestions](https://chromewebstore.google.com/detail/hcos-hide-chrome-omnibox/aldijnffnfojelcpcfoekkeifffkhldo?hl=zh-CN)，本来说想看 Chrome 能否直接设置，可惜没有找到，只能用大佬写的扩展插件曲线救国一波，但是现在还是没玩明白，新的搜索记录确实没有了，但是之前的还有，而且删都删不掉 😠，按道理只需要删除 [活动记录](https://myactivity.google.com/product/search?utm_source=chrome_cbd) 就行，历史记录是不需要删除的。
 
@@ -6,7 +8,7 @@
 
 ### Chrome
 
-- 仓库：[findmio/juejin-download - JS - Github](https://github.com/findmio/juejin-download)
+- 仓库：[findmio/juejin-download - JS - GitHub](https://github.com/findmio/juejin-download)
 - 扩展工具：[Cookie Editor](https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)
 
 ### Chrome

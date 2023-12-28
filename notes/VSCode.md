@@ -1,6 +1,4 @@
-![VSCode Github Plus.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/VSCode%20Github%20Plus.png)
-
-- [Hungry Delecte](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete) - 更加智能的 `Backsapce`，增加了 `Alt+Backspace` 删除前面所有空行快捷方式
+- [Hungry Delete](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete) - 更加智能的 `Backsapce`，增加了 `Alt+Backspace` 删除前面所有空行快捷方式
 - [TS 自动引入](https://marketplace.visualstudio.com/items?itemName=kevinmcgowan.TypeScriptImport)
 - [TS 移动文件后自动更新引入位置](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
 
@@ -9,9 +7,9 @@
 [zimfw/utility](https://github.com/zimfw/utility/issues/2) 找到了！就是这个插件刺客，内置扩展启动的时候往 VS Code 里面注入了 NO_COLOR=1，直接让我部分命令输出颜色丢失了，可以通过关闭这个插件或者在 settings.json 中设置
 
 ```shell
-  "terminal.integrated.env.osx": {
-    "NO_COLOR": null
-  },
+"terminal.integrated.env.osx": {
+  "NO_COLOR": null
+},
 ```
 
 > 解决群友问题
@@ -36,6 +34,7 @@
 ![](attachments/06-07%20周三_vscode_terminal_keybinding.png)
 
 - 20:48 **background-cover** 这个插件还是蛮不错的，显著提升编程幸福度 🌟。
+
 ![](attachments/theme-SpacegrayEightiesDark.png)
 
 - 15:00 改看分屏快捷键的时候发现了这个，可惜对全键盘用户并不友好，需要鼠标参与才能来回聚焦，浏览源码的时候当前文件过长时需要上下来回切可以用这个，不会创建新的编辑组，会在当前组聚焦的编辑文件内分离一个副本浏览。
@@ -103,7 +102,7 @@ BackSpace（退格键）在 Vim 的选中模式配置
 
 ## Codeium
 
-一个类似 Github Copilot 的代码智能提示插件，优点是免费，我上次弄了蛮久没效果，今天突发奇想弄一下，结果就能用了…有点迷
+一个类似 GitHub Copilot 的代码智能提示插件，优点是免费，我上次弄了蛮久没效果，今天突发奇想弄一下，结果就能用了…有点迷
 
 后续补充：找到问题所在了，我把内联建议直接关掉了（如下图所示），这还怎么让别人提示，我的问题我的问题，当时是我太大声了，对不起 🙏
 

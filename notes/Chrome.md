@@ -22,7 +22,7 @@ map Z openUrl url="vimium://status toggle ^ Z"
 
 ### Chrome
 
-> [!question] 在 Google 搜索页或者 Github 网页中点击一些链接，默认是在当前网页打开的，这会使前面浏览的内容被覆盖，如果想在新标签页打开并且自动跳到此标签页该怎么办呢？
+> [!question] 在 Google 搜索页或者 GitHub 网页中点击一些链接，默认是在当前网页打开的，这会使前面浏览的内容被覆盖，如果想在新标签页打开并且自动跳到此标签页该怎么办呢？
 >
 > 点击链接时加上两个修试键：Command + Shift
 

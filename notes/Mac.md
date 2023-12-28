@@ -1,5 +1,7 @@
+20:00 使用 Downie 4 下载 B 站视频时记得把代理关闭，不然有些视频下载不下来。
+
 - [Site Unreachable](https://xmac.app/)
-- [精品MAC应用分享](https://xclient.info/)
+- [精品 MAC 应用分享](https://xclient.info/)
 
 这两个链接是下载 Mac 破解软件的，不过也要 🪜，Mac 以前有个叫 macwk 的超级好用，可惜没钱运营后面闭站，现在这两个是我平常用的比较舒服的
 
@@ -248,7 +250,7 @@ sudo pmset repeat cancel
 
 ## Macs Fan Control
 
-Github 地址：[crystalidea/macs-fan-control: Control fans on Apple computers](https://github.com/crystalidea/macs-fan-control)
+GitHub 地址：[crystalidea/macs-fan-control: Control fans on Apple computers](https://github.com/crystalidea/macs-fan-control)
 
 > 起因是这样的，因为目前我用的是 Mac 自带的键盘和触摸板，今天应该是温度有点高，我明显感觉到键盘有点发热，看了下 Tencent Lemon 发现温度已经 75° 风扇 2500 R 但是我没听到一点声音，所以还以为我风扇坏了，就去找能不能手动控制风扇转速的软件
 
