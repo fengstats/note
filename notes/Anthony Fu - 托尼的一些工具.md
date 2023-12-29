@@ -1,14 +1,52 @@
-## 🥦 Taze - 现代化的更新依赖工具
+## Shikiji 式辞 - 基于 TextMate 的语法高亮
 
-> [项目地址](https://github.com/antfu/taze)
+[项目地址](https://github.com/antfu/shikiji)
+
+### 用法
+
+Shikiji CLI 的工作方式和 `cat` 命令类似，但具有语法突出显示功能，如：
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Shikiji%20%E5%92%8C%20cat%20%E5%AF%B9%E6%AF%94%E5%9B%BE.png)
+
+### 安装
+
+可以全局安装 `shikiji-cli`，内部已经注册别名 `shikiji-cli`、`shikiji`、`skat` 以供使用。
+
+```shell
+pnpm i -g shikiji-cli
+
+skat src/index.ts
+```
+
+### 参数
+
+#### `--theme`
+
+选择主题 [Themes](https://shikiji.netlify.app/themes)，默认主题为 `vitesse-dark`，可以通过 `--theme` 指定其他主题。
+
+```shell
+skat index.ts --theme=nord
+```
+
+#### `--lang`
+
+选择语言：[Languages](https://shikiji.netlify.app/languages)，一般是由文件扩展名自动推断而来，可以通过 `--lang` 进行覆盖。
+
+```shell
+skat index.js --lang=ts
+```
+
+## 🥦 Taze - 更现代化的更新依赖工具
+
+[项目地址](https://github.com/antfu/taze)
 
 > [!todo]
 
 ## ni - 正确的使用包管理工具
 
-> [项目地址](https://github.com/antfu/ni)
+[项目地址](https://github.com/antfu/ni)
 
-### ni - 下载
+### 安装
 
 ```shell
 ni
@@ -22,7 +60,7 @@ bun install
 
 ![image.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20230728181542.png)
 
-### nr - 运行
+### 执行
 
 ```shell
 nr
@@ -50,7 +88,7 @@ bun run dev --port=3000
 nr -
 ```
 
-### nlx - 临时下载并执行
+### 临时下载并执行
 
 ```shell
 nlx
@@ -62,7 +100,7 @@ pnpm dlx
 bunx
 ```
 
-### nu - 升级
+### 升级
 
 ```shell
 nu
@@ -83,7 +121,7 @@ yarn up -i # Yarn Berry
 pnpm update -i
 ```
 
-### nun - 卸载
+### 卸载
 
 ```shell
 nun
