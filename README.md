@@ -43,11 +43,11 @@
 - [Git](notes/Git.md)
 - [GitHub](notes/GitHub.md)
 - [JavaScript](notes/JavaScript.md)
-- [Ranger](notes/Ranger.md)
 - [Vim](notes/Vim.md)
 - [VSCode](notes/VSCode.md)
 - [Vue2](notes/Vue2.md)
 - [Vue3](notes/Vue3.md)
+- [ranger](notes/Ranger.md)
 
 ## Chrome
 
