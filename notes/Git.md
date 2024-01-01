@@ -56,7 +56,19 @@ git branch -M main
 git push -u origin main
 ```
 
-## 修改已提交的 commit msg 信息
+## 中文显示转义乱码
+
+> 如图所示：
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Git%20%E4%B8%AD%E6%96%87%E6%98%BE%E7%A4%BA%E8%BD%AC%E4%B9%89%E4%B9%B1%E7%A0%81.png)
+
+执行下面命令关闭对文件名的 quote 即可
+
+```shell
+git config --global core.quotepath false
+```
+
+## commit msg 已提交如何修改？
 
 ⚠️ 多人协作可能要考虑一下后果
 
@@ -88,11 +100,11 @@ git push --force
 1. 先 `git rm --cached` 清除这个文件或文件夹；
 2. `git add` 加上 `git commit` 清除远程仓库托管信息即可，也就是删除远程仓库的文件或者文件夹。
 
-## 子模块 - submodule
+## submodule 子模块
 
 [sumodule](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97) - 链接一个独立的子仓库进行管理。
 
-### 创建一个子模块
+### 创建
 
 ```shell
 git submodule add 远程仓库地址
@@ -112,9 +124,7 @@ git submodule update --remote
 - `.gitmodules` 映射
 - `.git/modules/` 目录下无用子模块清理
 
-## 问题记录
-
-### 文件名大小写产生多余文件的问题
+## 文件名大小写产生多余文件的问题
 
 例如：你创建了一个文件 `callout.md` 写入内容并提交到远程仓库中，突然有一天，你想将这个文件名的首字母改为大写，更改后会发现没有任何提示信息，你感到很诧异，这并不奇怪，因为 Git 默认是不区分文件名大小写的，所以对你的文件名大小写并不敏感。
 
