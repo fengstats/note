@@ -28,7 +28,7 @@
 - [关于减肥的心路历程](notes/关于减肥的心路历程.md)
 - [日记时长统计脚本](notes/日记时长统计脚本.md)
 - [看完文章想写点东西](notes/看完文章想写点东西.md)
-- [什么是 MBTI？](notes/什么是%20MBTI？.md)
+- [什么是 MBTI](notes/什么是%20MBTI.md)
 - [一些乱七八糟的推荐](notes/一些乱七八糟的推荐.md)
 - [怎样让对方喜欢和你聊天](notes/怎样让对方喜欢和你聊天.md)
 - [ChatGPT](notes/ChatGPT.md)
