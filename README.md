@@ -38,6 +38,7 @@
 
 ## 技术相关
 
+- [图床解决方案](notes/图床解决方案.md)
 - [直播项目服务配置](notes/直播项目服务配置.md)
 - [Anthony Fu - 托尼的一些工具](notes/Anthony%20Fu%20-%20托尼的一些工具.md)
 - [ESLint](notes/ESLint.md)
@@ -68,4 +69,4 @@
 - [英语学习阶段](notes/英语学习阶段.md)
 - [英语发音技巧](notes/英语发音技巧.md)
 - [英语音标记录](notes/英语音标记录.md)
-- [英语单词记录](notes/英语单词记录.md)
+- [英语随记](notes/英语随记.md)
