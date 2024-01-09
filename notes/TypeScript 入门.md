@@ -7,6 +7,7 @@
 
 ## 扩展
 
+- [TypeScript Import](https://marketplace.visualstudio.com/items?itemName=kevinmcgowan.TypeScriptImport) - 接受提示，自动导入。
 - [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter) - 收集项目内的所有定义，敲出 `:` 时提供类型补全并自动导入。
 - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - 更好看的 TypeScript 错误提示。
 - [Move TS](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts) - 移动文件路径后，自动更改项目内文件链接路径。
