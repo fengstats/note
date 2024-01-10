@@ -1,5 +1,37 @@
 ## 基础
 
+### 分支
+
+创建分支
+
+```shell
+git branch branch-name
+```
+
+切换分支
+
+```shell
+git checkout branch-name
+```
+
+创建并切换分支
+
+```shell
+git chekout -b branch-name
+```
+
+删除分支
+
+```shell
+git branch -d branch-name
+```
+
+删除远程分支
+
+```shell
+git push origin :branch-name
+```
+
 ### 保存工作进度并在需要的时候恢复
 
 会分别对 **暂存区** 和 **工作区** 的文件进行进度保存
