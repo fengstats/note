@@ -46,7 +46,13 @@ skat index.js --lang=ts
 
 [项目地址](https://github.com/antfu/ni)
 
-### 安装
+### 全局安装
+
+```shell
+pnpm i -g @antfu/ni
+```
+
+### 安装项目依赖
 
 ```shell
 ni
@@ -60,13 +66,13 @@ bun install
 
 ![image.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20230728181542.png)
 
-### 执行
+### 启动项目命令
 
 ```shell
 nr
 ```
 
-读取 package.json 中的 scripts 来让用户选择，通过 [npm-scripts-info](https://www.npmjs.com/package/npm-scripts-info) 包实现，如图：
+读取 package.json 中的 scripts 来让用户选择，通过 [npm-scripts-info](https://www.npmjs.com/package/npm-scripts-info) 包实现
 
 ![image.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20230728181925.png)
 
