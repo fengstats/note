@@ -6,7 +6,18 @@
 
 ## 小问题收集
 
-关于我更改 GitHub 仓库名后，没有改本地 remote 名称同样可以 push 的原因，参考文档：[GitHub 文档](https://docs.github.com/zh/repositories/creating-and-managing-repositories/renaming-a-repository)
+### 在 push 一个分支后，仓库页面的 “合并 & 拉取请求” 提示框如何关闭？
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/GitHub%20%E5%90%88%E5%B9%B6%E6%8B%89%E5%8F%96%E8%AF%B7%E6%B1%82%E6%8F%90%E7%A4%BA%E6%A1%86.png)
+
+emm……就不用管，超过一个小时会自动消失的。
+
+### 更改仓库名后你需要知道的一切
+
+1. 之前的仓库链接同样可以正常访问
+2. 本地 remote 地址没有更新的情况下也可以 push 的原因
+
+参考文档：[GitHub 文档](https://docs.github.com/zh/repositories/creating-and-managing-repositories/renaming-a-repository)
 
 ![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/GitHub%20%E9%87%8D%E5%91%BD%E5%90%8D%E4%BB%93%E5%BA%93%E6%96%87%E6%A1%A3.png)
 
