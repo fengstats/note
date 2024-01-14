@@ -9,5 +9,17 @@
 
 keyCode 废弃
 
-- [告别JS keyCode « 张鑫旭-鑫空间-鑫生活](https://www.zhangxinxu.com/wordpress/2021/01/js-keycode-deprecated/)
+- [告别 JS keyCode « 张鑫旭-鑫空间-鑫生活](https://www.zhangxinxu.com/wordpress/2021/01/js-keycode-deprecated/)
 - [键盘键码值 KeyCode 参考，交互式获取 KeyCode - dute.org](https://www.dute.org/keycodes)
+
+for in 会将数组或者对象原型链上的属性也遍历出来，可以通过 hasOwnProperty 方法来只遍历自身属性
+
+for of 只能遍历数组或者可迭代对象，必须要实现 iterator
+
+Object.keys 也可以做到只遍历自身属性
+
+直接通过对象插入新属性时，会通过对象 key 进行排序，所以在使用 Object.values 转换时 key 是升序返回的（只测试过 key 为 number 时）
+
+小坑，concat 遇到多维数组合并时会自动展开一层内部元素，与扩展运算符 `...` 行为类似
+
+`[[1,2]].concat([3,4])` 会变成 `[[1,2],3,4]`
