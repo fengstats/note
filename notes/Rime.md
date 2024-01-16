@@ -4,6 +4,10 @@
 
 2023-09-19 麻了！Rime 配置的 16 进制配色和正常的 16 进制配色颜色表对不上啊，想自定义颜色都不好弄，设置出来更像是互补色。只有在网页 [Rime 西米](https://fxliang.github.io/RimeSeeMe/) 调出来的才是对的。
 
+2024-01-16 懂了，Rime 调配出来的是 BGR，一般的是 RGB，需要转换一下，在上面网页工具上可以输入转换！
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/Rime%20BGR%20and%20RGB.png)
+
 ## Rime 的默认词库联想词总是怪怪的？这个拼音方案真的无敌！
 
 先上一波链接，分别是 Rime、rime-ice 源码、文档、安装工具：
