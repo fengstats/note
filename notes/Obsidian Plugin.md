@@ -10,6 +10,7 @@
 
 ### 功能增强
 
+- [Floating Search](https://github.com/Quorafind/Obsidian-Float-Search) - 增强系统搜索框，增加悬浮功能以及相关快捷键。
 - [Settings Search](https://github.com/javalent/settings-search) - 在系统偏好设置中增加搜索功能。
 - [Clear Unused Images](https://github.com/ozntel/oz-clear-unused-images-obsidian) - 清理无用附件图片。
 - [Calendar](https://github.com/liamcain/obsidian-calendar-plugin) - 日历，与核心插件「 日记 」搭配很香！

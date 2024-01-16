@@ -61,7 +61,7 @@
 ## Obsidian
 
 - [Obsidian](notes/Obsidian.md)
-- [Obsidian 插件](notes/Obsidian%20插件.md)
+- [Obsidian Plugin](notes/Obsidian%20Plugin.md)
 - [Obsidian 中的 Callout 和 Admonition](notes/Obsidian%20中的%20Callout%20和%20Admonition.md)
 
 ## 英语

@@ -147,7 +147,7 @@ ssh-keygen -t rsa -C "feng2860984180@163.com"
 > 17. 保存搜索结果展示到笔记中，先创建一个语言为 query 的代码片段，并使用上述搜索语言编写搜索代码，回车后，如下所示：
 
 ```query
-task: v
+task: 快捷方式
 ```
 
 > Obsidian 中 VScode 快捷键方案配置
