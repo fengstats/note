@@ -1,4 +1,14 @@
-- [Hungry Delete](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete) - 更加智能的 `Backsapce`，增加了 `Alt+Backspace` 删除前面所有空行快捷方式
+
+
+2024-01-18 VSCode 插件
+
+- [Apc Customize UI++](https://marketplace.visualstudio.com/items?itemName=drcika.apc-extension) - 自定义你的 VSCode 界面，提供 JS CSS 注入功能，可用于 Animations 插件。
+- [VSCode Animations](https://marketplace.visualstudio.com/items?itemName=BrandonKirbyson.vscode-animations) - 可定制的动画扩展，我主要用它的光标。
+- [matchit](https://marketplace.visualstudio.com/items?itemName=redguardtoo.matchit) - 代替原生 Vim 的 % 功能，匹配范围更精确且支持匹配 html 标签，映射键配置为 S。
+
+---
+
+- [Hungry Delete](https://marketplace.visualstudio.com/items?itemName=jasonlhy.hungry-delete) - 更加智能的 Backsapce，增加了 Option+Backspace 删除前面所有空行快捷方式
 - [TS 自动引入](https://marketplace.visualstudio.com/items?itemName=kevinmcgowan.TypeScriptImport)
 - [TS 移动文件后自动更新引入位置](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts)
 
@@ -19,7 +29,7 @@
 - 在 windows WSL 中使用
 - 调整一下命令：添加 `set` 前缀或者安装 `cross-env` 依赖包配置下（一个跨平台的环境变量配置工具）
 
-我翻了下这个仓库的 issues 貌似也有这个问题的解答：[github issues 687](https://github.com/heartexlabs/label-studio-frontend/issues/687)
+我翻了下这个仓库的 issues 貌似也有这个问题的解答：[#687](https://github.com/heartexlabs/label-studio-frontend/issues/687)
 
 ![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/20231204213426.png)
 
@@ -191,6 +201,6 @@ done
 
 这个问题给我找麻了，排查了插件，又一个一个排查设置，浪费了好多时间，一开始认为既然是提示问题，那肯定是和关键字 suggest 挂钩，结果相关配置项全看了遍并尝试改值，没啥用，就纳闷了，切换到临时 Profile 测试，诶，没问题。
 
-> 最后几经折腾，结果发现是 CheckJS 搞鬼的（不知道什么时候设置的），改成下面这样就好了（默认设置）
+几经折腾，结果发现是 CheckJS 搞鬼的，不知道什么时候设置的，改成下面这样就好了（其实就是默认设置）
 
 ![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/VSCode%20CheckJS.png)
