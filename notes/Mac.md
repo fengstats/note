@@ -1,3 +1,22 @@
+Rectangle 快捷键调整
+
+| 快捷键 | 说明 |
+| ---- | ---- |
+| Control+Command+C | 居中 |
+| Control+Command+Enter | 自适应窗口最大化 |
+| Control+Command+[ \/ ] | 向左侧 / 右侧移动窗口并自适应大小 |
+| Control+Command+`-` / `=` | 缩小 / 放大窗口 |
+| Control+Command+Backspace | 恢复 |
+
+全局快捷键调整
+
+| 快捷键 | 说明 |
+| ---- | ---- |
+| Control+Command+1 | 截图 |
+| Control+Command+2 | 剪贴板历史 |
+| Control+Command+E | 执行日记时长统计脚本 |
+| Control+Command+; | 静默执行日记时长统计脚本 |
+
 使用 Downie 4 下载 B 站视频时记得把代理关闭，不然有些视频下载不下来。
 
 - [xMac](https://xmac.app/)
