@@ -12,6 +12,7 @@ Rectangle 快捷键调整
 
 | 快捷键 | 说明 |
 | ---- | ---- |
+| Control+Command+0 | 翻译 |
 | Control+Command+1 | 截图 |
 | Control+Command+2 | 剪贴板历史 |
 | Control+Command+E | 执行日记时长统计脚本 |
