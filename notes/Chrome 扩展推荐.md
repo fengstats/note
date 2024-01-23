@@ -1,3 +1,7 @@
+[Scouter](https://chromewebstore.google.com/detail/scouter/mncfcjnabpfoagocanfjglfcpmmnkicb) - 这并不是一个翻译工具，它的目标是帮助你学习以独立运用外语，主要还是用到了 AI，产品对单词和句子的 Prompt 我很喜欢，从下图中也能看出看到作者很热情，回复很快，也愿意听取用户建议！自己去试试吧！
+
+![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/Scouter%20%E6%89%A9%E5%B1%95%E5%BB%BA%E8%AE%AE-%E4%BD%9C%E8%80%85%E5%9B%9E%E5%A4%8D.png)
+
 [GitHub - EnixCoda/Gitako: 🐙](https://github.com/EnixCoda/Gitako) - GitHub 目录树，比目前 GitHub 自带的更好用。
 
 [Authenticator](https://authenticator.cc/)，身份验证器，用于 GitHub2FA 验证的，还好之前有先见之名，设置了同步。
