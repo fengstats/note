@@ -11,6 +11,7 @@
 - [TypeScript Importer](https://marketplace.visualstudio.com/items?itemName=pmneo.tsimporter) - 收集项目内的所有定义，敲出 `:` 时提供类型补全并自动导入。
 - [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors) - 更好看的 TypeScript 错误提示。
 - [Move TS](https://marketplace.visualstudio.com/items?itemName=stringham.move-ts) - 移动文件路径后，自动更改项目内文件链接路径。
+- [To TS Type](https://marketplace.visualstudio.com/items?itemName=simonhe.to-ts-type) - Simon 哥写的，通过 Command+Option+T 快捷键将复制的数据转换成对应的 TS 类型。
 
 ## 运行
 
