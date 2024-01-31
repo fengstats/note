@@ -1,5 +1,33 @@
 ## 基础
 
+### 用户
+
+清除用户名与邮箱命令（全局）
+
+```shell
+git config --global --unset user.name
+git config --global --unset user.email
+```
+
+设置用户名与邮箱命令（全局）
+
+```shell
+git config --global user.name "用户名"
+git config --global user.email "邮箱"
+```
+
+查看用户名邮箱（全局）
+
+```shell
+git config --global --list
+```
+
+Windows 下保存 Gitee 账号密码路径
+
+```
+控制面板 → 用户帐户 → 凭据管理器 → 找到 https://gitee.com
+```
+
 ### 分支
 
 创建分支
@@ -89,6 +117,27 @@ git branch -M main
 
 ```shell
 git push -u origin main
+```
+
+## 出现冲突怎么办
+
+如果你想要使用合并（merge）来解决冲突，可以执行
+
+```bash
+git config pull.rebase false
+```
+
+如果你想要使用变基（rebase）来解决冲突，可以运行
+
+```bash
+git config pull.rebase true
+```
+
+`git merge` 到一半不想解决冲突了怎么办？
+
+```bash
+# 这将会取消合并，并且将代码状态恢复到合并之前的状态
+git merge --abort
 ```
 
 ## 中文显示转义乱码
