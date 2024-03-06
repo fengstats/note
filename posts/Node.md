@@ -30,6 +30,8 @@ pnpm get registry
 pnpm i -g
 # or
 pnpm i -g pnpm
+# or
+npx pnpm i -g pnpm@latest
 ```
 
 ## nrm

@@ -103,12 +103,14 @@ docker compose up -d [server name]
 docker compose start
 ```
 
-### 停止并删除服务资源
+### 停止并删除服务
 
 ```shell
+# 删除服务
 docker compose down
 
 # 删除创建的 Docker Volumes
+docker compose down -v
 docker compose down --volumes
 ```
 

@@ -35,6 +35,7 @@
 - [ChatGPT](posts/ChatGPT.md)
 - [Mac](posts/Mac.md)
 - [Rime](posts/Rime.md)
+- [哑铃训练](posts/哑铃训练.md)
 
 ## 技术相关
 
