@@ -70,3 +70,57 @@ git push origin feat/add-feature
 ### 六、等待仓库维护者合并 PR
 
 ![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/GitHub%20%E7%AD%89%E5%BE%85%20PR%20%E5%90%88%E5%B9%B6.png)
+
+## 关于两个没有权限的 GitHub 用户合作一个 PR 的问题
+
+### 基础步骤
+
+1. 先 fork 原仓库（你们都想要把 pr 提交过去的仓库）
+2. 决定谁来提 PR（A），谁作为合作者（B）
+3. A 提交一个 PR 之后，在他 fork 的仓库中将 B 添加到合作者（collaborator）
+4. B 在他 fork 的仓库找到 A 提交的 PR 分支，并且切换（checkout）过去
+5. 基于这个 PR 分支的内容进行添加 / 更改 / 删除之后，push 到他的分支上（此时是有权限的）
+
+### 纯命令行形式
+
+> 确保本地是干净的，可以先用 git stash 存起来，等你改完之后再 git stash pop 出来
+
+切换分支
+
+```bash
+# username 是对方的
+git checkout pr/[username]/[prId]
+
+# 比如
+git checkout pr/fengstats/1
+```
+
+添加暂存区 + 提交本地仓库
+
+```bash
+git add .
+git commit -m "xxx"
+```
+
+推送到 PR 分支上（确保有其仓库推送的权限 / Collaborator）
+
+```bash
+git push [username] HEAD:对应的分支名称
+
+# 比如
+git push fengstats HEAD:feat/add-content
+```
+
+### 图形化方式
+
+推荐 VSCode 插件：[GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+
+![1712158228477.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/VSCode%20GitHub%20Pull%20Requests.png)
+
+切换到对应 PR 的分支上
+
+![1712158271074.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/VSCode%20GitHub%20Pull.png)
+
+通过 add&commit 提交到本地仓库之后，会看到一个分支差异，右键推送即可
+
+![1712158367467.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/1712158367467.png)
