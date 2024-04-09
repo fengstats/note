@@ -4,21 +4,21 @@
 
 清除用户名与邮箱命令（全局）
 
-```shell
+```bash
 git config --global --unset user.name
 git config --global --unset user.email
 ```
 
 设置用户名与邮箱命令（全局）
 
-```shell
+```bash
 git config --global user.name "用户名"
 git config --global user.email "邮箱"
 ```
 
 查看用户名邮箱（全局）
 
-```shell
+```bash
 git config --global --list
 ```
 
@@ -32,7 +32,7 @@ Windows 下保存 Gitee 账号密码路径
 
 创建分支
 
-```shell
+```bash
 git branch branch-name
 
 # 创建空分支
@@ -41,25 +41,25 @@ git checkout --orphan main
 
 切换分支
 
-```shell
+```bash
 git checkout branch-name
 ```
 
 创建并切换分支
 
-```shell
+```bash
 git chekout -b branch-name
 ```
 
 删除分支
 
-```shell
+```bash
 git branch -d branch-name
 ```
 
 删除远程分支
 
-```shell
+```bash
 git push origin :branch-name
 ```
 
@@ -67,7 +67,7 @@ git push origin :branch-name
 
 会分别对 **暂存区** 和 **工作区** 的文件进行进度保存
 
-```shell
+```bash
 git stash
 
 # 完整版本
@@ -76,7 +76,7 @@ git stash save "message…"
 
 如果你想要将 **新添加的文件** 也保存起来
 
-```shell
+```bash
 git stash -u
 # or
 git stash --all
@@ -84,21 +84,29 @@ git stash --all
 
 在你需要的时候可以将进度弹出对文件进行恢复
 
-```shell
+```bash
 git stash pop
 ```
 
 查看保存的进度
 
-```shell
+```bash
 git stash list
+```
+
+清空暂存区
+
+⚠️ 这将清空整个 stash 列表，删除所有存储的更改，在执行删除操作之前，请确保你确实不再需要这些存储的更改，因为一旦删除，它们将无法恢复。如果你不确定，可以先使用  `git stash apply`  或  `git stash pop`  来恢复更改，检查是否还需要这些更改，然后再决定是否删除。
+
+```bash
+git stash clear
 ```
 
 ### 克隆最新提交的仓库并重命名
 
 这里的 `--depth=1` 意思是只克隆最近一次提交，而不是克隆整个提交历史，可以减少克隆的时间，因为我们只需要最新的代码。
 
-```shell
+```bash
 # 这里用的是 plum 举例，在 git 地址后可以加上想要的项目名称
 git clone --depth=1 https://github.com/rime/plum  my-plum
 ```
@@ -107,7 +115,7 @@ git clone --depth=1 https://github.com/rime/plum  my-plum
 
 -M 表示强制重命名，即便新分支存在也会执行重命名。
 
-```shell
+```bash
 git branch -M main
 ```
 
@@ -115,7 +123,7 @@ git branch -M main
 
 将当前分支推送到远程仓库，通过 `-u` 关联远程仓库和 main 分支，后续使用 `git push` 即可。
 
-```shell
+```bash
 git push -u origin main
 ```
 
@@ -148,8 +156,34 @@ git merge --abort
 
 执行下面命令关闭对文件名的 quote 即可
 
-```shell
+```bash
 git config --global core.quotepath false
+```
+
+## 更改 commit 提交时间（不建议多人合作项目使用）
+
+找到需要更改信息的 commit 哈希值
+
+```bash
+git rebase -i commitHash~1
+```
+
+将 `YYYY-MM-DD HH:MM:SS` 更改成你想要的时间
+
+```bash
+GIT_COMMITTER_DATE="YYYY-MM-DD HH:MM:SS" git commit --amend --no-edit --date "YYYY-MM-DD HH:MM:SS"
+```
+
+结束
+
+```bash
+git rebase --continue
+```
+
+强制提交
+
+```bash
+git push --force
 ```
 
 ## commit msg 已提交如何修改？
@@ -158,14 +192,14 @@ git config --global core.quotepath false
 
 1. 查看需要修改 commit 信息的 hash 值
 
-```shell
+```bash
 git log
 git reflog
 ```
 
-2. 找到这个 commit 的位置的前一个提交，方便定位
+2. 找到此 commit 的位置的父 commit hash 信息 ~ 后面的代表回数几个 commit
 
-```shell
+```bash
 git rebase -i commitHash~1
 ```
 
@@ -173,7 +207,7 @@ git rebase -i commitHash~1
 4. 此时会自动弹出这个 commit msg 之前的提交信息，对其进行修改并保存退出
 5. 强制提交
 
-```shell
+```bash
 git push --force
 ```
 
@@ -190,13 +224,13 @@ git push --force
 
 ### 创建
 
-```shell
+```bash
 git submodule add 远程仓库地址
 ```
 
 ### 更新主项目中子模块的引用
 
-```shell
+```bash
 git submodule update --remote
 ```
 
@@ -214,7 +248,7 @@ git submodule update --remote
 
 > 那么我们怎么能让 Git 对大小写敏感呢？很简单，一个命令：
 
-```shell
+```bash
 git config core.ignorecase false
 ```
 
@@ -224,7 +258,7 @@ git config core.ignorecase false
 
 小问题，不要慌 👊，清除一下本地 Git 记录的文件缓存信息，然后重新提交即可，如下：
 
-```shell
+```bash
 # -r 是为了递归删除，多个文件的话，建议你直接写目录名，反正在 add 阶段会被 Git diff 掉
 # !!! 注意一定要加上 --cached 选项，如果不加，不仅会删除托管信息，还会在硬盘上删除此文件
 git rm -r --cached callout.md
