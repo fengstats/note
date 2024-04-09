@@ -1,4 +1,23 @@
+2024-03-21 TypeScript Import 报错
 
+```bash
+ Notification handler 'namespaceUpdate' failed with message: this._namespaceCache[file.namespace].push is not a function
+```
+
+关于 VSCode package.json 中 script 脚本上面提供的一键启动按钮消失了的问题
+
+```json
+// jsonc 不会被识别
+"files.associations": {
+  "*.json": "jsonc"
+}
+```
+
+2024-01-25
+
+- [To TS Type](https://marketplace.visualstudio.com/items?itemName=simonhe.to-ts-type) - 通过 Command+Option+T 快捷键将复制的数据转换成对应的 TS 类型。
+- [Fast Jump](https://marketplace.visualstudio.com/items?itemName=simonhe.fast-jump) - 通过 Command+E 在变量或者函数上一步跳转到位。
+- [TailwindCSS Highlight](https://marketplace.visualstudio.com/items?itemName=ellreka.tailwindcss-highlight) - 提供 TaliwindCSS 样式的高亮背景，可以针对自己比较关注的样式配置突出显示。
 
 2024-01-18 VSCode 插件
 

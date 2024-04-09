@@ -4,3 +4,10 @@ Vue3 关于 watch 监听异常的问题：[Vue SFC Playground](https://play.vuej
 
 - 验证：要么把使用 isShow 变量的 `<p>` 去掉
 - 解决：改成 `:propsParams="searchFormData"`
+
+Vue3 使用 ref 包裹数组，通过 list.value.push 的方式，设置 watchEffect 打印 list.value 不能更新，但是 Vue SCF Playground 可以
+
+- [watchEffect not triggering properly with reactive or ref objects · vuejs/core · Discussion #9428 · GitHub](https://github.com/vuejs/core/discussions/9428)
+
+问题：SCF 劫持了 console.log [repl/src/output/srcdoc.html at main · vuejs/repl · GitHub](https://github.com/vuejs/repl/blob/main/src/output/srcdoc.html#L159-L172)
+解决：[Vue SFC Playground](https://repl-vuejs.vercel.app/#eNp9Uk1v1DAQ/SuWL81KK5cVnMruCqj2AAdAgMQBc0idSeLWsS1/bBZF+e+M7e02laoeEtlv3jy9eeOJfrSWHSPQG7r1wkkbiIcQ7Z5rOVjjApmIg3ZNxjqI/tC2IAKZSevMQDjFRk7fcy2M9oEoib9dold//q4usFBSPGw2WKlWZLcnE9ckc9mxVhGYjb6vNpvUMONXtVGLII1O9MwtMrJ19QCo0hgRB9CBCQd1gIOCdKuuCuFqlVrKmY2yCT22vFlgPciuTz4zeBG7M80/VlsLurntpWqqQs9qo9SNGVnyYVSycJZCIGDv72dlnKJaYdsisGox+JnFlOmqpxDy8Om3vS5bwPzxEmCwCmfEGyHbuxgCxvIhB7rj9Bwsp/t82l4XQiZPU1nHPCfNhQ5d0+DRRCs7du+NxsVnXyhnBisVuG82pe85vSmOU61WyoxfMhZchPUjLnoQDy/g9/6UME6/O/DgjvhMLrVQuw5CKR9+foUTni/FwTQRM3yt+AMwwJg8FtqnqBu0veBlt5/z85W6++UPJ1yTfxwqGU3MOfPzI759ZfQnu2/Zu9yHq6LzfzIkFzk=)

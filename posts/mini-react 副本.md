@@ -25,7 +25,7 @@
 
 ```js
 // App.jsx
-/**@jsx FReact.createElement */
+/** @jsx FReact.createElement */
 import FReact, { createElement } from './core/React'
 
 // ƒ AppFunc() {

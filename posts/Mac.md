@@ -1,21 +1,21 @@
 Rectangle 快捷键调整
 
-| 快捷键 | 说明 |
-| ---- | ---- |
-| Control+Command+C | 居中 |
-| Control+Command+Enter | 自适应窗口最大化 |
-| Control+Command+[ \/ ] | 向左侧 / 右侧移动窗口并自适应大小 |
-| Control+Command+`-` / `=` | 缩小 / 放大窗口 |
-| Control+Command+Backspace | 恢复 |
+| 快捷键                       | 说明                 |
+| ------------------------- | ------------------ |
+| Control+Command+C         | 居中                 |
+| Control+Command+Enter     | 自适应窗口最大化           |
+| Control+Command+[ \/ ]    | 向左侧 / 右侧移动窗口并自适应大小 |
+| Control+Command+`-` / `=` | 缩小 / 放大窗口          |
+| Control+Command+Backspace | 恢复                 |
 
 全局快捷键调整
 
-| 快捷键 | 说明 |
-| ---- | ---- |
-| Control+Command+0 | 翻译 |
-| Control+Command+1 | 截图 |
-| Control+Command+2 | 剪贴板历史 |
-| Control+Command+E | 执行日记时长统计脚本 |
+| 快捷键               | 说明           |
+| ----------------- | ------------ |
+| Control+Command+0 | 翻译           |
+| Control+Command+1 | 截图           |
+| Control+Command+2 | 剪贴板历史        |
+| Control+Command+E | 执行日记时长统计脚本   |
 | Control+Command+; | 静默执行日记时长统计脚本 |
 
 使用 Downie 4 下载 B 站视频时记得把代理关闭，不然有些视频下载不下来。
@@ -380,11 +380,25 @@ chmod +x ${filename}
 
 ## 尝试了几个录屏软件的总结
 
-18:15 想着说日常录点视频，给以后自己看的，体验下哪个录屏软件好一点，结果要么录制质量不行，要么就是视频存储太大了，而且来来回回的改配置，测试录制花了一下午，总结一下：
+想着说日常录点视频，自己回顾时候看看，所以来体验下什么录屏软件好一点
 
-- ScreenFlow：单纯录屏使用简单，功能全面，还可以做剪辑工作，质量与大小都还可以，缺点是导出速度太慢了…一个 10min 分钟的视频都要好几分钟才能导出。
-- OBS：功能曲全面，可以直播推流（直播应该都是用的这个），导出速度挺快的，缺点是配置繁琐，画面质量与存储大小也不是特别理想（可能还是我配置没到位）。
-- Filmage Screen：使用简单，质量 ok，但视频存储太大了，调整配置之后质量又不行了，哎。
+结果要么录制质量不行，要么就是视频存储太大了，来来回回的改配置 + 测试录制，花了一下午……
+
+### ScreenFlow
+
+单纯录屏使用的话很简单，它的功能非常全面，甚至可以做剪辑工作，视频质量和大小都还行
+
+缺点是导出速度太慢了，一个 10 分钟的视频都要花好几分钟才能导出完成
+
+### OBS
+
+功能也很全面，可以直播推流，直播应该都是用的这个，导出速度也挺快的
+
+缺点是配置有点多，画面质量与存储大小也不是特别理想，可能还是我配置没到位吧
+
+### Filmage Screen
+
+使用简单，质量可以，但视频存储太大了，调整配置之后质量又不行了，呃
 
 01:25 OpenInTerminal&OpenInEditor 就是在 Finder 内一键打开编辑器和终端的工具（Lite 版本），用于提升日常开发幸福感，可以通过 brew 下载后，找到应用程序通过 Command + 拖拽的形式放到工具栏上，根据提示点击配置默认打开应用，详情可查看：[Lite 版说明文档](https://github.com/Ji4n1ng/OpenInTerminal/blob/master/Resources/README-Lite-zh.md)。
 
