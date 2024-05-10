@@ -1,3 +1,31 @@
+[Microsoft Remote Desktop 下载](https://install.appcenter.ms/orgs/rdmacios-k2vy/apps/microsoft-remote-desktop-for-mac/distribution_groups/all-users-of-microsoft-remote-desktop-for-mac)
+
+显示/隐藏文件：Command+Shift+.
+
+## Screen Studio
+
+先到 `/etc/hosts` 中添加
+
+```bash
+# screen.studio
+127.0.0.1 screen.studio
+```
+
+清除签名
+
+```bash
+xattr -cr /Applications/[软件包名称]
+
+# 示例
+xattr -cr /Applications/Screen\ Studio.app
+```
+
+关于安装包
+
+![Pasted image 20240412181548.png](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2024/Pasted%20image%2020240412181548.png)
+
+## 其他
+
 Rectangle 快捷键调整
 
 | 快捷键                       | 说明                 |
@@ -36,7 +64,7 @@ https://jsdcloud.org/auth/login 这个是我日常用的，不过是和朋友一
 Bartender 4 - 隐藏顶部菜单栏超出应用
 Snipaste - 截图 + 贴图
 AltTab - 同步 Win 的切应用方式，一个小窗口
-ClashX - 🪜 软件，我记得你之前 Win 也是这个
+ClashX - 🪜 软件
 Thor Launcher - 快捷键一键切换指定应用
 Mos - 解决鼠标触摸板相反方向问题
 Rectangle Pro - 分屏
@@ -44,6 +72,19 @@ Keka - 压缩
 IINA - 播放器
 Tencent Lemon - 垃圾清理
 iTerm - 更好用的终端
+
+> 2024-04-30
+
+uTools - 快速呼出工具（你也可以选择 Raycast/Hapigo/rubick……）
+Keka - 压缩/解压工具
+BetterAndBetter - 快捷手势（鼠标）
+Karabiner - 配置按键映射 + 组合键
+Easydict - 划词翻译（不止划词）
+KeyCastr - 按键显示
+Downie 4 - 视频下载（B 站/油管……）
+IINA - 视频软件
+Loopback - 虚拟麦克风
+Macs Fan Control - 控制散热风扇转动的
 
 ## EasyDict
 
@@ -175,7 +216,7 @@ Mos 配置
 
 ![](https://cdn.jsdelivr.net/gh/fengstats/blogcdn@main/2023/Fig%20zsh-vi-mode.png)
 
-一个强大的命令行提示建议补全工具，目前只有 mac 端可用，下载好之后使用 github 登录，并且根据提示开启相应的访问权限即可使用，在你需要补全命令提示（按下空格或者 Tab 时），将会有一个小弹窗在命令输入处显示，界面很好看，命令也非常全，推荐使用！！！下面是效果展示：
+一个强大的命令行提示建议补全工具，目前只有 mac 端可用，下载好之后使用 github 登录，并且根据提示开启相应的访问权限即可使用，在你需要补全命令提示（按下空格或者 Tab 时），将会有一个小弹窗在命令输入处显示，界面很好看，命令也非常全，~~推荐使用~~！！！下面是效果展示：
 
 - 16:00 关于 fig 更改样式之后无效的问题，在其仓库找到一个 [Issues](https://github.com/withfig/fig/issues/1797#issuecomment-1251725186)，其实就是通过输入 `fig settings sync` 同步更新来解决。
 
